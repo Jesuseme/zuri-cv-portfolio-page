@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Helvetica;
+  background-color: #eaeceb;
 }
 
 #container {
@@ -14,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   background: url("../img/bg.jpg") no-repeat bottom right;
-  background-size: 300px;
+  background-size: 500px;
 }
 
 header {
@@ -172,6 +173,10 @@ p {
 
 .socials a img {
   height: 35px;
+}
+
+.socials a img:hover {
+  filter: invert(1);
 }
 
 @media (max-width: 991px) {
