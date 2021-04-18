@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  background-color: #eaeceb;
+  /* background-color: #eaeceb; */
 }
 
 #container {
@@ -14,7 +14,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  background: url("../img/bg.jpg") no-repeat bottom right;
+  background: url("../img/bg.png") no-repeat bottom right;
   background-size: 500px;
 }
 
