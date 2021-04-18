@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+#container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("../img/bg.jpg") no-repeat bottom right;
+  background-size: 300px;
+}
+
+header {
+  display: flex;
+  flex-grow: 1;
+}
+
+header div {
+  padding: 20px;
+}
+
+header .image {
+  height: 100px;
+  border-radius: 50%;
+}
+
+header .image img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+header .text {
+  width: 60%;
+}
+
+header > * {
+  padding: 10px;
+}
+
+header .text h1 {
+  font-size: 25px;
+  padding: 5px;
+}
+
+header .text h2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+header .text p img {
+  height: 24px;
+  object-fit: contain;
+  object-position: center;
+  padding: 0 5px 0 0;
+}
+
+header .text p {
+  font-size: 14px;
+  padding: 5px;
+}
+
+section {
+  width: 70%;
+}
+
+section p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.profile {
+  padding: 5px 0;
+}
+
+.profile h3 img {
+  height: 22px;
+  object-fit: contain;
+  object-position: center;
+  margin: 20px 10px 0;
+  padding: 3px;
+}
+
+.profile .bio {
+  padding: 30px 10px;
+  border-left: 1px solid;
+  font-weight: 400;
+  margin: 20px 10px;
+}
+
+h4 {
+  margin: 20px 10px 0;
+  padding: 3px;
+}
+
+h5 {
+  font-size: 18px;
+  padding: 3px;
+}
+
+h4 img,
+a img {
+  height: 22px;
+  object-fit: contain;
+  object-position: center;
+}
+
+article {
+  padding: 30px 10px;
+  border-left: 1px solid;
+  font-weight: 400;
+  margin: 20px 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  margin: 20px 0;
+}
+
+button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid;
+  padding: 9px;
+}
+
+.contact {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact p {
+  font-size: 14px;
+}
+
+.contact .socials {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .socials a {
+  padding: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+p {
+  padding: 3px;
+}
+
+.socials a img {
+  height: 35px;
+}
+
+@media (max-width: 991px) {
+  .contact .socials {
+    display: flex;
+    flex-direction: column;
+  }
+}
